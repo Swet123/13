@@ -29,7 +29,7 @@ namespace ConsoleApp69
             {
                 for (int j = 0; j < y; j++)
                 {
-                    mas[i, j] = random.Next(1, 5);
+                    mas[i, j] = random.Next(1, 10);
                 }
             }
             Console.WriteLine("Вывод массива случайными числами");
