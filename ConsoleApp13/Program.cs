@@ -74,6 +74,7 @@ namespace ConsoleApp69
             }
             Console.WriteLine("Количество элементов кратных четырем:   {0}", k);
             Console.ReadKey();
+
         }
     }
 }
