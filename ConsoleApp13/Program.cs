@@ -45,12 +45,12 @@ namespace ConsoleApp69
             {
                 for (int j = 0; j < y; j++)
                 {
-                    if (mas[i, j] % 3 == 0)
+                    if (mas[i, j] % 2 == 0)
                         k++;
 
                 }
             }
-            Console.WriteLine("Количество элементов кратных трем:   {0}", k);
+            Console.WriteLine("Количество элементов кратных двум:   {0}", k);
             Console.ReadKey();
         }
     }
