@@ -67,12 +67,12 @@ namespace ConsoleApp69
             {
                 for (int j = 0; j < y; j++)
                 {
-                    if (mas[i, j] % 1 == 0)
+                    if (mas[i, j] % 4 == 0)
                         k++;
 
                 }
             }
-            Console.WriteLine("Количество элементов кратных одному:   {0}", k);
+            Console.WriteLine("Количество элементов кратных четырем:   {0}", k);
             Console.ReadKey();
         }
     }
