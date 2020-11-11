@@ -62,7 +62,19 @@ namespace ConsoleApp69
                 }
             }
             Console.WriteLine("Количество элементов кратных трем:   {0}", k);
+
+            for (int i = 0; i < x; i++)
+            {
+                for (int j = 0; j < y; j++)
+                {
+                    if (mas[i, j] % 4 == 0)
+                        k++;
+
+                }
+            }
+            Console.WriteLine("Количество элементов кратных четырем:   {0}", k);
             Console.ReadKey();
+
         }
     }
 }
